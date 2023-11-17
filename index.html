@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="buttons.js"></script>
+    <style id="white">
+
+    </style>
+</head>
+<body>
+    <div id="result">
+     
+    </div>
+    <div>
+<table>
+    <tr class="button">
+        <td onclick="dark()">Dark-Mode</td>
+        <td onclick="white()">White-Mode</td>
+        <td onclick="AC()">AC</td>
+        <td onclick="del()">DEL</td>
+    </tr>
+<tr class="button">
+    <td onclick="ergebnis(7)">7</td>
+    <td onclick="ergebnis(8)">8</td>
+    <td onclick="ergebnis(9)">9</td>
+    <td onclick="ergebnis(' / ')">/</td>
+</tr>
+
+<tr class="button">
+    <td onclick="ergebnis(4)">4</td>
+    <td onclick="ergebnis(5)">5</td>
+    <td onclick="ergebnis(6)">6</td>
+    <td onclick="ergebnis(' * ')">x</td>
+</tr>
+
+<tr class="button">
+    <td onclick="ergebnis(1)">1</td>
+    <td onclick="ergebnis(2)">2</td>
+    <td onclick="ergebnis(3)">3</td>
+    <td onclick="ergebnis(' + ')">+</td>
+</tr>
+
+<tr class="button">
+    <td onclick="ergebnis(0)">0</td>
+    <td onclick="ergebnis('.')">,</td>
+    <td onclick="ende()" id="gleich" >=</td>
+    <td onclick="ergebnis(' - ')">-</td>
+</tr>
+</table>
+    </div>
+    <script language="javascript" type="text/javascript" src="buttons.js"></script>
+</body>
+</html>
